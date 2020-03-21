@@ -1,0 +1,37 @@
+
+
+  <h2><span>Select a sector:</span></h2>
+
+  <select (change)="selectChangeHandler($event)">
+    <option value = "auto">Automobiles</option>
+    <option value = "cons-du">Consumer Durables</option>
+    <option value = "fin-serv">Financial Services</option>
+    <option value = "fmcg">FMCG (Fast Moving Consumer Goods)</option>
+    <option value = "indus">Industries</option>
+    <option value = "it">Information Technology</option>
+    <option value = "media">Media</option>
+    <option value = "metal">Metal</option>
+    <option value = "o&g">Oil & Gas</option>
+    <option value = "pharm">Pharmaceuticals</option>
+    <option value = "priv-bank">Private Banks</option>
+    <option value = "psu-bank">PSU Banks (Public Sector Undertakings)</option>
+    <option value = "realty">Real Estate</option>
+  </select>
+
+  <p>
+    <span>You selected: </span>{{selectedSector}}
+  </p>
+<br>
+
+<!--
+<p>
+<button class="btn btn-primary" *ngIf="user" (click)="logout()">Logout</button>
+</p>
+-->
+
+<!--
+<p>
+<button class="btn-portfolio" *ngIf="user" (click)="portfolio()">Check Portfolio</button>
+</p>
+-->
+
